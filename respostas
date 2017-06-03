@@ -1,0 +1,40 @@
+Exercício 01
+	- Memória Virtual
+	- Registrador de base
+	- Registrador de Tamanho
+
+Exercício 02
+	- Durante a execução de um programa, as referências à memória realizadas por uma UCP, tanto para instruções como para dados, tendem a se aglutinar
+
+Exercício 03
+- Consiste no espaço de endereçamento virtual.
+Exercício 04
+	- Armazena o endereço de início do programa na memória física.
+Exercício 05
+	- Um programa é dividido em vários segmentos, sendo que cada segmento é identificado por uma base e um tamanho, onde são identificados o0s registradores armazenados. Todo acesso do programa à memória é identificado pelo número do segmento e pelo offset.
+Exercício 06
+- Um driver de dispositivo é um pequeno pedaço de software que diz ao sistema operacional e outros softwares como se comunicar com determinada parte do hardware.
+Exercício 07
+- É um índice (que começa a contagem com o valor 0) desta tabela, utilizado pela aplicação para identificar a stream ao realizar uma operação.
+Exercício 08
+- O agrupamento das operações em um lote, para a realização de uma transferência  física em uma única vez.
+Exercício 09
+- No bloco de boot há informação de cada partição (início, fim e tipo de sistema de arquivo).
+
+
+
+
+
+
+Exercício 10
+Encontrar um espaço grande o suficiente para acomodar um novo arquivo
+Exercício 11
+- Cada arquivo ocupa blocos que não precisam ser contíguos. A entrada do arquivo no diretório de arquivos contém o endereço do primeiro bloco do arquivo. Cada bloco tem um ponteiro para o próximo bloco. O último bloco tem um ponteiro para NULL.
+Exercício 12
+NTFS, FAT32, EXT2.
+Exercício 13
+Hypervisors, contâiner e Plataforma virtual para aplicações.
+Exercício 14
+- Tipo I (baremetal, nativo ou supervisor): executa diretamente no hardware do servidor. Controla o hardware e o acesso do sistema operacional convidado (guest). O papel do hypervisor nativo é compartilhar os recursos de hardware entre as máquinas virtuais, de forma que cada uma delas imagine ter os recursos exclusivos para si. Exemplos: VMWare ESX Server, Microsoft Hyper-V e Xen Server. 
+- Tipo II (hosted): aplicação que fornece um ambiente de execução para outras aplicações. É executado sobre um sistema operacional como se fosse um processo deste. A camada de virtualização é composta por um hardware virtual e um sistema operacional hóspede (guest). Exemplos: VMWare Player, VirtualBox e Virtual PC.
+
